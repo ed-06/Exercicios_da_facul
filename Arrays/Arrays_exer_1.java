@@ -1,5 +1,5 @@
 package Facul.Arrays;
-Java util.scanner;
-    public class Arrays_exer_1{
+import java.util.Scanner;
+class Principal{
 
 }
