@@ -1,0 +1,81 @@
+Lista de Exercícios: Estruturas de Repetição
+
+Exercício 1. Faça um programa para mostrar todos os números entre 100 e 1
+usando o comando while.
+
+Exercício 2. Faça um programa para mostrar a soma e o produto dos números
+entre 1 e 10 (incluindo 1 e 10) usando o comando while.
+
+Exercício 3. Faça um programa que leia números inteiros e escreva o quadrado do
+número até que o usuário informe zero.
+Por exemplo:
+Informe um número inteiro ou zero para sair: 3
+O quadrado de 3 é 9
+Informe um número inteiro ou zero para sair: 4
+O quadrado de 4 é 16
+Informe um número inteiro ou zero para sair: 0
+
+Exercício 4. Escreva um programa que solicita o valor de uma compra à vista,
+calcule e mostre o valor da compra, sabendo-se que o desconto do dia é de 10%. O
+algoritmo deve repetir esses passos enquanto forem informados valores positivos
+para compras.
+
+Exercício 5. Faça um programa que leia notas entre 0.0 e 10.0 até que seja
+informada uma nota menor que 0.0. Se uma nota maior que 10.0 for informada, o
+programa deve ignorar essa nota. Finalmente, o programa deve calcular a média
+aritmética simples das notas válidas recebidas (ignorando as notas inválidas e a
+nota menor que zero informada por último) depois de receber um nota negativa.   
+
+Exercício 6. Escreva um programa que apresente quatro opções: (a) consulta
+saldo, (b) saque e (c) depósito e (d) sair. O saldo deve iniciar em R$ 0,00. A cada
+saque ou depósito o valor do saldo deve ser atualizado.
+Por Exemplo:
+(a) consulta saldo
+(b) saque
+(c) deposito
+(d) sair
+Opção: a
+Saldo R$ 0.00
+(a) consulta saldo
+(b) saque
+(c) deposito
+(d) sair
+Opção: c
+Valor: 20.00
+(a) consulta saldo
+(b) saque
+(c) deposito
+(d) sair
+Opção: a
+Saldo R$ 20.00
+(a) consulta saldo
+(b) saque
+(c) deposito
+(d) sair
+Opção: d
+
+Exercício 7. Fazer um programa que leia um número não conhecido de respostas
+do time que torce: g – Gremio, i – Inter ou o - outros. O programa deve encerrar
+quando for digitado f – Fim. Escrever ao final o total de torcedores entrevistados, a
+quantidade de gremistas e a quantidade de colorados.
+Por exemplo:
+Pesquisa das torcidas:
+g – Gremio
+i – Inter
+o – Outro
+f – Fim
+Opcao: o
+g – Gremio
+i – Inter
+o – Outro
+f – Fim
+Opcao: i
+g – Gremio
+i – Inter
+o – Outro
+f – Fim
+Opcao: f
+Resultado:
+Número total de torcedores: 2
+Torcedores gremistas: 0
+Torcedores colorados: 1

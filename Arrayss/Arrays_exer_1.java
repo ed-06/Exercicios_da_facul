@@ -1,6 +1,8 @@
-package Facul.Arrays;
+package Facul.Arrayss;
 import java.util.Scanner;
 class Principal{
+    Scanner scanner = new Scanner(System.in);
+
 
 }
 

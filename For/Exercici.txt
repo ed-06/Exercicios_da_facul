@@ -1,0 +1,28 @@
+Lista de Exercícios: Estruturas de Repetição
+
+Exercício 1. Faça um programa para mostrar todos os números entre 70 e 1.
+
+Exercício 2. Faça um programa para mostrar todos os múltiplos de 3 entre 1 e 70.
+
+Exercício 3. Faça um programa para mostrar a soma e o produto dos números
+entre 1 e 10.
+
+Exercício 4. Faça um programa que apresente a tabuada de multiplicar de um
+número qualquer.
+
+Exercício 5. Faça um programa que apresente a tabuada de soma de um número
+qualquer.
+
+Exercício 6. Faça um algoritmo para ler 10 números e mostrar quantos são pares e
+quantos são ímpares.
+
+Exercício 7. Faça um algoritmo para ler 20 números e escrever a média dos
+números que são ímpares e dos números que são pares.
+
+Exercício 8. Faça um algoritmo que leia 20 números e imprimir a soma dos
+números cujos valores do quadrado dos números são menores que 200.
+
+Exercício 9. Faça um algoritmo para ler a nota de três provas (p1, p2, p3) de 10
+alunos e escrever a média aritmética de cada aluno, se a média for maior que 6
+escrever “Parabéns Aprovado!”, senão “Você foi Reprovado!”:
+

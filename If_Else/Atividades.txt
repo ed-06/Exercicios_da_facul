@@ -1,0 +1,91 @@
+Exercícios de estruturas condicionais e operadores relacionais e lógicos
+
+1. Faça um algoritmo que receba um número real e mostre a frase “VIVA OS
+ORNITORRINCOS” se ele for maior que 10.0 . (resolver usando fluxograma,
+pseudocódigo e Java)
+
+2. Faça um algoritmo que receba um número inteiro e calcule e mostre sua raiz
+quadrada se for positivo (ou não negativo) ou calcule e mostre ele elevado ao
+quadrado se for negativo. (resolver usando fluxograma, pseudocódigo e Java)
+
+3. Faça um algoritmo que receba um número inteiro e informe se ele é par ou
+ímpar. (resolver usando fluxograma, pseudocódigo e Java)
+
+4. Faça um algoritmo que receba um número inteiro e informe se ele é ou não
+múltiplo de 2, 3 e 5 simultaneamente. (resolver usando pseudocódigo e Java)
+5. Faça um algoritmo que receba três números reais e mostre apenas o maior
+deles. (resolver usando pseudocódigo e Java)
+
+6. Faça um algoritmo que receba dois números inteiros e um caractere. Se o
+caractere recebido for ‘ + ’, os números devem ser somados e o resultado mostrado.
+Se o caractere recebido for ‘ – ’, os segundo número deve ser subtraído do primeiro e
+o resultado mostrado. Se o caractere recebido for ‘ * ’, os números devem ser
+multiplicados e o resultado mostrado. Se o caractere recebido for ‘ / ’, o primeiro
+número deve ser dividido pelo primeiro e o resultado mostrado. Se qualquer outro
+caractere for recebido, deve ser mostrado “Operação inválida”. (resolver usando
+pseudocódigo e Java)
+
+7. Faça um algoritmo que receba 3 números inteiros referentes a um horário no
+formato Horas:Minutos:Segundos e diga se o horário recebido é ou não válido.
+(resolver usando pseudocódigo e Java)
+DICA: use o sistema de horas indo de 00 a 23.
+
+8. Faça um algoritmo que receba três números reais referentes às notas das provas
+de um aluno, calcule a média aritmética simples e mostre o conceito desse aluno
+(uma letra) conforme a tabela abaixo: (resolver usando pseudocódigo e Java)
+9.0 >= nota final <= 10 (conceito A)
+7.5 >= nota final < 9.0 (conceito B)
+6.0 >= nota final < 7.5 (conceito C)
+nota final < 6.0 (conceito D)
+
+9. Faça um algoritmo que receba uma letra referente ao cargo de um funcionário
+(confira abaixo), uma letra referente ao horário do dia trabalho (confira abaixo) e um
+número inteiro referente à quantidade de horas trabalhadas, e calcule e mostre o
+salário desse funcionário. (resolver usando pseudocódigo e Java)
+O – cargo de operário – ganha R$ 15.95 por hora trabalhada
+G – cargo de gerência – ganha R$ 22.14 por hora trabalhada
+M – horário matutino – ganha apenas o salário calculado pela quantidade de horas
+V – vespertino – ganha o salário calculado + 12.5%
+N – noturno – ganha o salário calculado + 27.5%
+
+10. Um professor precisa verificar quais estudantes foram aprovados em sua
+disciplina de Algoritmos e Programação. Considere que (1) o professor fornecerá a
+nota do estudante e sua frequência (referente à porcentagem de aulas assistidas), e (2)
+um estudante precisa de nota mínima 6.0 e de frequência mínima 75% para
+aprovação. Faça um algoritmo que mostre se um estudante foi ou não aprovado.
+
+11. Um porteiro de um prédio comercial precisa saber quantos minutos cada
+visitante ficou nas dependências do prédio, mas ele apenas possui o registro de
+entrada e saída como referência. Considere que (1) o porteiro fornecerá quatro
+valores inteiros distintos (as horas na entrada, os minutos na entrada, as horas na
+saída, e os minutos na saída), e (2) o prédio fica aberto apenas das 08:00 às 20:00 e
+ninguém pode entrar ou sair fora desse horário. Faça um algoritmo que ajude o
+porteiro
+
+12. Um contador da comunidade local precisa conferir o valor básico de Imposto
+de Renda (IR) anual que famílias devem pagar. Considere que (1) o contador vai
+informar apenas o salário bruto mensal da família, (2) a porcentagem de pagamento
+de imposto (alíquota) por mês é calculada com base no salário bruto mensal conforme
+a tabela a seguir (se alguém ganha R$ 3000, pagará 15% como IR mensal, ou seja, R$
+450), e (3) existe um valor que deve ser reduzido (dedução) do imposto de renda
+calculado mensalmente conforme a tabela a seguir (se alguém ganha R$ 3000 e
+pagaria R$450 de imposto pela alíquota, devem ser deduzidos R$ 372.54, fazendo
+com que a pessoa pague R$ 77.46 de imposto por mês). Faça um algoritmo que ajude
+o contador a calcular o Imposto de Renda anual pago.
+Faixa de salário Alíquota Dedução
+Até 1999.18 isento de imposto de renda
+De 1999.18 até 2967.98 7.5% 149.94
+De 2967.98 até 3938.60 15% 372.54
+De 3938.60 até 4897.91 22.5% 667.93
+Acima de 4897.92 27.5% 912.83
+
+13. Um professor de geometria do ensino fundamental precisa ensinar os diferentes
+tipos de triângulos para seus alunos do quarto ano. Considere que (1) o professor
+entrará com três números reais referentes aos tamanhos dos lados de um triângulo, (2)
+um triângulo cujos lados são iguais é equilátero, (3) um triângulo cujos lados são
+todos diferentes é escaleno, (4) um triângulo que possui dois lados quaisquer de
+tamanho igual e um lado de tamanho diferente é isósceles, e (5) devem ser cuidados
+os casos em que é impossível formar um triângulo com os valores informados (por
+exemplo, não existe triângulo com qualquer um dos lados com valor negativo). Faça
+um algoritmo que ajude o professor com o processo de ensino-aprendizagem na
+escola.
