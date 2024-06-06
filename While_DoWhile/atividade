@@ -20,11 +20,7 @@ calcule e mostre o valor da compra, sabendo-se que o desconto do dia é de 10%. 
 algoritmo deve repetir esses passos enquanto forem informados valores positivos
 para compras.
 
-Exercício 5. Faça um programa que leia notas entre 0.0 e 10.0 até que seja
-informada uma nota menor que 0.0. Se uma nota maior que 10.0 for informada, o
-programa deve ignorar essa nota. Finalmente, o programa deve calcular a média
-aritmética simples das notas válidas recebidas (ignorando as notas inválidas e a
-nota menor que zero informada por último) depois de receber um nota negativa.   
+
 
 Exercício 6. Escreva um programa que apresente quatro opções: (a) consulta
 saldo, (b) saque e (c) depósito e (d) sair. O saldo deve iniciar em R$ 0,00. A cada

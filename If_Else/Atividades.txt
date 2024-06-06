@@ -25,10 +25,7 @@ número deve ser dividido pelo primeiro e o resultado mostrado. Se qualquer outr
 caractere for recebido, deve ser mostrado “Operação inválida”. (resolver usando
 pseudocódigo e Java)
 
-7. Faça um algoritmo que receba 3 números inteiros referentes a um horário no
-formato Horas:Minutos:Segundos e diga se o horário recebido é ou não válido.
-(resolver usando pseudocódigo e Java)
-DICA: use o sistema de horas indo de 00 a 23.
+7. 
 
 8. Faça um algoritmo que receba três números reais referentes às notas das provas
 de um aluno, calcule a média aritmética simples e mostre o conceito desse aluno
