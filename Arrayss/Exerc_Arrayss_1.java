@@ -1,9 +1,9 @@
 package Facul.Arrayss;
 import java.util.Scanner;
-class Principal{
+public class Exerc_Arrayss_1 {
     Scanner scanner = new Scanner(System.in);
-
-
+    
+    
 }
 
 /*
