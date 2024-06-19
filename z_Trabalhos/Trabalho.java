@@ -14,6 +14,7 @@ public class Trabalho {
         int cebola = scanner.nextInt();
         System.out.println("Quantas fatias de queijo no estoque?");
         int queijo = scanner.nextInt();
+        scanner.close();
 
         // vai ser usado no fim do código
         int horasDeOperacao = 0;
