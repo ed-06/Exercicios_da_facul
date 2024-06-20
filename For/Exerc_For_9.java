@@ -10,6 +10,7 @@ public class Exerc_For_9{
         int p2 = scanner.nextInt();
         System.out.println("Digite a nota da prova 3 para o aluno " + aluno + ":");
         int p3 = scanner.nextInt();
+        scanner.close();
         int media = (p1 + p2 + p3) / 3;
             if (media > 6) {
             System.out.println("Parabéns Aprovado!");

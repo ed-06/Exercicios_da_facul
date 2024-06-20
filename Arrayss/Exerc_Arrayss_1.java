@@ -2,8 +2,9 @@ package Facul.Arrayss;
 import java.util.Scanner;
 public class Exerc_Arrayss_1 {
     Scanner scanner = new Scanner(System.in);
+    Scanner
     
-    
+   close.scanner();
 }
 
 /*
