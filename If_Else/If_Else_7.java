@@ -9,6 +9,7 @@ public class If_Else_7 {
         int minutos = scanner.nextInt();
         System.out.println("Digite os segundos:");
         int segundos = scanner.nextInt();
+        scanner.close();
         if (hora >= 0 && hora <= 23 && minutos >= 0 && minutos <= 59 && segundos >= 0 && segundos <= 59) {
             System.out.println("Horário válido");
         } else {
