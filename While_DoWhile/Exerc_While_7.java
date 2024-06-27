@@ -1,6 +1,10 @@
 package Facul.While_DoWhile;
+import java.util.Scanner;
+public class Exerc_While_7{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-public class Exerc_While_7 {
+    }
     
 }
 /*
