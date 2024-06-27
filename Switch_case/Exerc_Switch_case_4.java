@@ -9,7 +9,6 @@ public class Exerc_Switch_case_4 {
         int codigoPagamento = scanner.nextInt();
         double valorParcela = 0;
         int numeroPrestacoes = 1;
-
         switch (codigoPagamento) {
             case 1:
                 valorParcela = precoProduto * 0.7; // 30% de desconto
@@ -28,9 +27,8 @@ public class Exerc_Switch_case_4 {
                 break;
             default:
                 System.out.println("Código de pagamento inválido.");
-                return;
         }
-
+        scanner.close();
         System.out.println("Número de prestações: " + numeroPrestacoes);
         System.out.println("Valor de cada prestação: " + valorParcela);
     }
