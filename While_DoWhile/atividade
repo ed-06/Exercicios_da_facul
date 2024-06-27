@@ -1,20 +1,3 @@
-Lista de Exercícios: Estruturas de Repetição
-
-Exercício 1. Faça um programa para mostrar todos os números entre 100 e 1
-usando o comando while.
-
-Exercício 2. Faça um programa para mostrar a soma e o produto dos números
-entre 1 e 10 (incluindo 1 e 10) usando o comando while.
-
-Exercício 3. Faça um programa que leia números inteiros e escreva o quadrado do
-número até que o usuário informe zero.
-Por exemplo:
-Informe um número inteiro ou zero para sair: 3
-O quadrado de 3 é 9
-Informe um número inteiro ou zero para sair: 4
-O quadrado de 4 é 16
-Informe um número inteiro ou zero para sair: 0
-
 Exercício 4. Escreva um programa que solicita o valor de uma compra à vista,
 calcule e mostre o valor da compra, sabendo-se que o desconto do dia é de 10%. O
 algoritmo deve repetir esses passos enquanto forem informados valores positivos
