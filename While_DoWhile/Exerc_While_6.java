@@ -10,7 +10,7 @@ public class Exerc_While_6 {
         System.out.println("3. Depósito");
         System.out.println("4. Sair");
         while (true){
-            System.out.print("Escolha a opção:");
+            System.out.print("Escolha a opção: ");
             int escolha = scanner.nextInt();
             if (escolha == 4){
                 System.out.println("Saindo");
