@@ -2,6 +2,8 @@ package Facul.Trabalhos_Algoritmos;
 import java.util.Scanner;
 public class Joguinho {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
         System.out.println("Hi");
     }
 }

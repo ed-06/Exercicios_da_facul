@@ -17,8 +17,6 @@ public class If_Else_7 {
         }
     }
 }
-
-
 /*
 Faça um algoritmo que receba 3 números inteiros referentes a um horário no
 formato Horas:Minutos:Segundos e diga se o horário recebido é ou não válido.
