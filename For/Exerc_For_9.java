@@ -19,7 +19,6 @@ public class Exerc_For_9{
             }
         }
     }
-
 }
 /*
  Faça um algoritmo para ler a nota de três provas (p1, p2, p3) de 10

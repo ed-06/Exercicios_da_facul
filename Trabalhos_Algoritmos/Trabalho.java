@@ -1,4 +1,4 @@
-package Facul.z_Trabalhos;
+package Facul.Trabalhos_Algoritmos;
 import java.util.Scanner;
 public class Trabalho {
     public static void main(String[] args){

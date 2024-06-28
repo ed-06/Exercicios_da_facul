@@ -1,21 +1,11 @@
-package Facul.z_Trabalhos;
+package Facul.Trabalhos_Algoritmos;
 import java.util.Scanner;
 public class Joguinho {
     public static void main(String[] args) {
-        
-
-
-
-
-
-
-
-        public static class Teste{
-            
-        }
+        System.out.println("Hi");
     }
-    
 }
+
 /*
  * Alternativa 2: MAIÚSCULAS vs. minúscula
  * Você deve criar um programa para um jogo que ocorre em uma matriz 3 x 3

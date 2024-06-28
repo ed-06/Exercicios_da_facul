@@ -22,3 +22,12 @@ public class If_Else_8{
        scanner.close();
        }
     }
+/*
+ * 8. Faça um algoritmo que receba três números reais referentes às notas das provas
+de um aluno, calcule a média aritmética simples e mostre o conceito desse aluno
+(uma letra) conforme a tabela abaixo: (resolver usando pseudocódigo e Java)
+9.0 >= nota final <= 10 (conceito A)
+7.5 >= nota final < 9.0 (conceito B)
+6.0 >= nota final < 7.5 (conceito C)
+nota final < 6.0 (conceito D)
+ */
