@@ -1,7 +1,10 @@
 package Facul.Arrayss;
-
+import java.util.Scanner;
 public class Exerc_Arrays_2 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
+    }
 }
 /*
  * Exercício 2. Escreva um programa Java que declare um vetor de inteiros de 10
