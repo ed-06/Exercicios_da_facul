@@ -1,7 +1,27 @@
 package Facul.If_Else;
-
+import java.util.Scanner;
 public class If_Else_11 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Hora da entrada: ");
+        int entradaHora = scanner.nextInt();
+        System.out.print("Minutos da entrada: ");
+        int entradaMins = scanner.nextInt();
+        System.out.print("Hora da saida: ");
+        int saidaHora = scanner.nextInt();
+        System.out.print("Minutos da saida: ");
+        int saidaMins = scanner.nextInt();
+        int tempoVisita = 0;
+        scanner.close();
+        if (entradaHora >= 8 && saidaHora <= 20){
+            entradaHora = entradaHora * 60;
+            saidaHora = saidaHora * 60;
+            tempoVisita = saidaHora - entradaHora + saidaMins + entradaMins;
+            System.out.print("Tempo total de visita: " + tempoVisita);
+        } else {
+            System.out.println("Invalido");
+        }
+    }
 }
 /*
  * 11. Um porteiro de um prédio comercial precisa saber quantos minutos cada

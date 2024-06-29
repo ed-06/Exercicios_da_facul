@@ -5,7 +5,7 @@ public class If_Else_12 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Salario bruto mensal: ");
         double salario = scanner.nextDouble();
-        double imposto = scanner.nextDouble();
+        double imposto = 0;
         scanner.close();
         if (salario <= 1999.18){
             System.out.println("Isento de leão");
