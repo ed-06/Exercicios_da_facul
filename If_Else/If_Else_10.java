@@ -1,7 +1,19 @@
 package Facul.If_Else;
-
+import java.util.Scanner;
 public class If_Else_10 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nota do aluno: ");
+        int nota = scanner.nextInt();
+        System.out.println("Frequencia do aluno: ");
+        int frequencia = scanner.nextInt();
+        scanner.close();
+        if (nota >= 6 && frequencia >= 75) {
+            System.out.println("Aprovado!");
+        } else {
+            System.out.println("Reprovado!");
+        }
+    }
 }
 /*
  * 10. Um professor precisa verificar quais estudantes foram aprovados em sua

@@ -1,7 +1,28 @@
 package Facul.If_Else;
-
+import java.util.Scanner;
 public class If_Else_12 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Salario bruto mensal: ");
+        double salario = scanner.nextDouble();
+        double imposto = scanner.nextDouble();
+        scanner.close();
+        if (salario <= 1999.18){
+            System.out.println("Isento de leão");
+        } else if (salario >= 1999.18 && salario <= 2967.98){
+            imposto = salario * 0.075 - 149.94;
+            System.out.print("Precisa pagar essa quantidade de impostos: " + imposto);
+        } else if (salario >= 2967.98 && salario <= 3938.60){
+            imposto = salario * 0.015 - 372.54;
+            System.out.print("Precisa pagar essa quantidade de impostos: " + imposto);
+        } else if (salario >= 3938.60 && salario <= 4897.91){
+            imposto = salario * 0.0225 - 667.93;
+
+        } else if (salario >= 4897.91){
+            imposto = salario * 0.0275 - 912.83;
+            System.out.print("Precisa pagar essa quantidade de impostos: " + imposto);
+        }
+    }
 }
 /*
  * 12. Um contador da comunidade local precisa conferir o valor básico de Imposto
