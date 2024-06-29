@@ -1,4 +1,4 @@
-package Facul.For;
+package Exercicios_facul.For;
 public class Exerc_For_1 {
     public static void main(String[] args) {
         for (int i = 70; i >= 1; i--) {

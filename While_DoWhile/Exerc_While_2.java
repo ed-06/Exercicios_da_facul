@@ -1,4 +1,4 @@
-package Facul.While_DoWhile;
+package Exercicios_facul.While_DoWhile;
 public class Exerc_While_2 {
     public static void main(String[] args) {
         int soma = 0;

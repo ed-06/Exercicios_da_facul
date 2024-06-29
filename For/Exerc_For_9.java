@@ -1,4 +1,4 @@
-package Facul.For;
+package Exercicios_facul.For;
 import java.util.Scanner;
 public class Exerc_For_9{
     public static void main(String[] args){

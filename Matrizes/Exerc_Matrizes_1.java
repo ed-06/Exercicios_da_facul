@@ -1,4 +1,4 @@
-package Facul.Matrizes;
+package Exercicios_facul.Matrizes;
 import java.util.Scanner;
 public class Exerc_Matrizes_1 {
     Scanner scanner = new Scanner(System.in);

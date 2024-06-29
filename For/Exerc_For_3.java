@@ -1,4 +1,4 @@
-package Facul.For;
+package Exercicios_facul.For;
 public class Exerc_For_3 {
     public static void main(String[] args) {
         int soma = 0; 

@@ -1,4 +1,4 @@
-package Facul.Switch_case;
+package Exercicios_facul.Switch_case;
 import java.util.Scanner;
 public class Exerc_Switch_case_4 {
     public static void main(String[] args) {
