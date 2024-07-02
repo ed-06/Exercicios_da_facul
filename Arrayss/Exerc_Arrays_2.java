@@ -4,6 +4,11 @@ public class Exerc_Arrays_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         scanner.close();
+        int vetor[] = new int[10];
+        for (int i = 0; i <= 10; i++){
+            vetor[i] =
+            
+        }
     }
 }
 /*

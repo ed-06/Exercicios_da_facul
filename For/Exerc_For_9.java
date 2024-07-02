@@ -24,4 +24,5 @@ public class Exerc_For_9{
  Faça um algoritmo para ler a nota de três provas (p1, p2, p3) de 10
 alunos e escrever a média aritmética de cada aluno, se a média for maior que 6
 escrever “Parabéns Aprovado!”, senão “Você foi Reprovado!”:
+Tá incompleto!
  */
