@@ -7,7 +7,7 @@ public class Exerc_Matrizes_3{
     int somaMatriz = 0;
         for (int i = 0; i < 6; i++){
             for (int j = 0; j < 6; j++){
-                System.out.print("Valor da matriz: ");
+                System.out.print("Valor da matriz[" + i + "][" + j + "]: ");
                 matriz[i][j]= scanner.nextInt();
             }
         }
