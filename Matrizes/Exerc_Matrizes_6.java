@@ -21,9 +21,9 @@ public class Exerc_Matrizes_6 {
                     break;
                 }
             }
-        if (!encontrado) {
-            System.out.println("Valor não encontrado!");
-        }
+            if (!encontrado) {
+                System.out.println("Valor não encontrado!");
+            }
         scanner.close();
         }
     }
