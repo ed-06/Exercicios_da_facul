@@ -1,8 +1,28 @@
 package Exercicios_facul.Sub_Rotinas;
-
+import java.util.Scanner;
 public class Exerc_Sub_Rotinas_4 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Quantos dias: ");
+        int dias = scanner.nextInt();
+        System.out.print("Quantas horas: ");
+        int horas = scanner.nextInt();
+        System.out.print("Quantos minutos: ");
+        int minutos = scanner.nextInt();
+        System.out.print("Quantos segundos: ");
+        int segundos = scanner.nextInt();
+        scanner.close();
+        paraSegundos(dias, horas, minutos, segundos);
+    }
+    public static void paraSegundos(int dias, int horas, int minutos, int segundos){
+        horas = horas + dias * 24;
+        minutos = minutos + horas * 60;
+        segundos = segundos + minutos * 60;
+        int totalSegundos = segundos;
+        System.out.print("O total de segundos é: " + totalSegundos); 
+    }
 }
+
 /*
  * 4. Faça um programa em Java que recebe do usuário quatro números inteiros
 relativos a uma quantidade de tempo em dias, horas, minutos e segundos, e que

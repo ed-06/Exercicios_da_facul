@@ -1,7 +1,22 @@
 package Exercicios_facul.Sub_Rotinas;
-
+import java.util.Scanner;
 public class Exerc_Sub_Rotinas_5 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Escreva uma palavara e a terceira letra será mostrada: ");
+        String palavra = scanner.nextLine();
+        System.out.print("A palavra é: " + palavra);
+        scanner.close();
+        informarTerceiraLetra(palavra);
+    }
+    public static void informarTerceiraLetra (String palavra){
+        if (palavra.length() >= 3) {
+            char terceiraLetra = palavra.charAt(2);
+            System.out.println("A terceira letra é: " + terceiraLetra);
+        } else {
+            System.out.println("Erro: A palavra informada tem menos de três letras.");
+        }
+    }
 }
 /*
  * 5. Faça um programa em Java que receba do usuário uma palavra e invoque uma
