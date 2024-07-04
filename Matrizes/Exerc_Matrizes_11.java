@@ -1,25 +1,13 @@
 package Exercicios_facul.Matrizes;
-import java.util.Scanner;
+
 public class Exerc_Matrizes_11 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int matriz[][] = new int[10][5];
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 5; i++){
-                System.out.print("Escreva a altura de cada atleta [" + i +"]["+ j +"]:");
-                matriz[i][j] = scanner.nextInt();
-            }
-        }
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 5; i++){
-
-
-                
-        scanner.close();
-    }
+    
 }
 /*
- * Exercício 11. Escreva um programa Java que possa armazenar as alturas de dez
-atletas de cinco delegações que participarão dos jogos de verão. Imprimir a maior
-altura de cada delegação.
+ * Exercício 12. Escreva um programa Java que leia uma matriz 12 x 4 com os valores
+das vendas de uma loja, em que cada linha represente um mês do ano, e cada
+coluna, uma semana do mês. Calcule e imprima:
+● Total vendido em cada mês do ano;
+● Total vendido em cada semana durante todo o ano;
+● Total vendido no ano.
  */
