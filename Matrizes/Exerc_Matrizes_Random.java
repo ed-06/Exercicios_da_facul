@@ -1,19 +1,38 @@
 package Exercicios_facul.Matrizes;
-
+import java.util.Random;
 public class Exerc_Matrizes_Random {
-    
+    public static void main(String[] args) {
+        Random random = new Random();
+        int cartela[][] = new int[5][5];
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                int numAleatorio;
+                boolean numeroRepetido;
+                do {
+                    numAleatorio = random.nextInt(100);
+                    numeroRepetido = verificarRep(cartela, numAleatorio, i, j);
+                } while (numeroRepetido);
+                cartela[i][j] = numAleatorio;
+            }
+        }
+        System.out.println("Cartela de Bingo:");
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(cartela[i][j] + "\t"); // sem esse "\t" o print da matriz vira uma zona
+            }
+            System.out.println();
+        }
+    }
+    public static boolean verificarRep(int[][] cartela, int num, int linha, int coluna) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if (i < linha || (i == linha && j < coluna)) {
+                    if (cartela[i][j] == num) {
+                        return true; //achou algum repetido
+                    }
+                }
+            }
+        }
+        return false; // o numero não repitiu 
+    }
 }
-/*
- * Construa um programa para gerar cartelas de bingo. As cartelas possuem 5 x 5 = 25 células, com números de 1 até 99. Utilize a classe Random para gerar os números aleatórios. Você notará que, em alguns casos, é possível que números se repitam, o que não é aceitável para cartelas reais. Como você resolveria esse problema?
-
-Código para gerar números aleatórios:
-
-Random random = new Random();
-
-// Gera um número inteiro aleatório entre 0 (inclusive) e 99 (inclusive)
-
-int numAleatorio = random.nextInt(100);
-
-System.out.println("Número inteiro aleatório entre 0 e 99: " + numAleatorio);
-TEM QUE ENTREGAR
- */

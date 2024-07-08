@@ -1,5 +1,6 @@
+package Exercicios_facul.Faltas_enchente;
 import java.util.Scanner;
-public class exerc1_1 {
+public class exerc1_1_ParImpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int par = 0;
