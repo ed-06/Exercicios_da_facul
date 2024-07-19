@@ -63,15 +63,12 @@ public class Exerc_Matrizes_11 {
                         break;
                     case 10:
                         vendasOutubro =+ vendas[i][j];
-                        System.out.println("Outubro: " + vendasOutubro);
                         break;
                     case 11:
-                        vendasNovembro=+ vendas[i][j];
-                        System.out.println("Novembro: " + vendasNovembro);
+                        vendasNovembro =+ vendas[i][j];
                         break;
                     case 12:
                         vendasDezembro =+ vendas[i][j];
-                        System.out.println("Dezembro: " + vendasDezembro);
                         break;
                     default:
                         break;
@@ -83,20 +80,15 @@ public class Exerc_Matrizes_11 {
                 switch (j) {
                     case 1:
                         vendas1Semana =+ vendas[i][j];
-                        System.out.println("Total vendido em cada semana do ano:");
-                        System.out.println("Primeira semana: " + vendas1Semana);
                         break;
                     case 2:
                         vendas2Semana =+ vendas[i][j];
-                        System.out.println("Segunda semana: " + vendas2Semana);
                         break;
                     case 3:
                         vendas3Semana =+ vendas[i][j];
-                        System.out.println("Terceira semana: " + vendas3Semana);
                         break;
                     case 4:
                         vendas4Semana =+ vendas[i][j];
-                        System.out.println("Quarta semana: " + vendas4Semana);
                         break;
                     default:
                         break;
@@ -118,19 +110,20 @@ public class Exerc_Matrizes_11 {
         System.out.println("Julho: " + vendasJulho);
         System.out.println("Agosto: " + vendasAgosto);
         System.out.println("Setembro: " + vendasSetembro);
-
-        
-        
-
-
-
+        System.out.println("Outubro: " + vendasOutubro);
+        System.out.println("Novembro: " + vendasNovembro);
+        System.out.println("Dezembro: " + vendasDezembro);
+        System.out.println();
+        System.out.println("Total vendido em cada semana do ano:");
+        System.out.println("Primeira semana: " + vendas1Semana);
+        System.out.println("Segunda semana: " + vendas2Semana);
+        System.out.println("Terceira semana: " + vendas3Semana);
+        System.out.println("Quarta semana: " + vendas4Semana);
+        System.out.println();
         System.out.println("Total vendido no ano inteiro: " + totalAno);
         scanner.close();
     }
 }
-    
-                                
-
 /*
  * Exercício 11. Escreva um programa Java que leia uma matriz 12 x 4 com os valores
 das vendas de uma loja, em que cada linha represente um mês do ano, e cada
