@@ -1,4 +1,4 @@
-package Exercicios_facul.Matrizes;
+package Exercicios_da_facul.Matrizes;
 import java.util.Scanner;
 public class Exerc_Matrizes_9 {
     public static void main(String[] args) {

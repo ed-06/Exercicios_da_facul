@@ -1,4 +1,4 @@
-package Exercicios_facul.Sub_Rotinas;
+package Exercicios_da_facul.Sub_Rotinas;
 
 public class Exerc_Sub_Rotinas_1 {
     public static void main(String[] args) {

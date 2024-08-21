@@ -1,4 +1,4 @@
-package Exercicios_facul.While_DoWhile;
+package Exercicios_da_facul.While_DoWhile;
 import java.util.Scanner;
 public class Exerc_While_4{
     public static void main(String[] args) {

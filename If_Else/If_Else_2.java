@@ -1,4 +1,4 @@
-package Exercicios_facul.If_Else;
+package Exercicios_da_facul.If_Else;
 import java.util.Scanner;
 public class If_Else_2 {
     public static void main(String[] args) {

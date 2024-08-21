@@ -1,4 +1,4 @@
-package Exercicios_facul.Classes_e_Objetos;
+package Exercicios_da_facul.Classes_e_Objetos;
 public class Exerc_Classes_e_Objetos_2 {
     public static void main(String[] args) {
         class Animal {

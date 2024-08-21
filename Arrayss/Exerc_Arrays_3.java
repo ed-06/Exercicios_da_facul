@@ -1,4 +1,4 @@
-package Exercicios_facul.Arrayss;
+package  Exercicios_da_facul.Arrayss;
 import java.util.Scanner;
 public class Exerc_Arrays_3 {
     public static void main(String[] args) {
