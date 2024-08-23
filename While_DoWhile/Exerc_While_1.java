@@ -1,4 +1,4 @@
-package Exercicios_da_facul.While_DoWhile;
+package Exercicios_facul.While_DoWhile;
 public class Exerc_While_1 {
     public static void main(String[] args){
         int i = 100;

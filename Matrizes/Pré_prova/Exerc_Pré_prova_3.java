@@ -1,4 +1,4 @@
-package Exercicios_da_facul.Matrizes.Pré_prova;
+package Exercicios_facul.Matrizes.Pré_prova;
 
 public class Exerc_Pré_prova_3 {
     

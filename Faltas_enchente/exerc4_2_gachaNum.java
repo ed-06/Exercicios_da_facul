@@ -1,4 +1,4 @@
-package Exercicios_da_facul.Faltas_enchente;
+package Exercicios_facul.Faltas_enchente;
 import java.util.Scanner;
 import java.util.Random;
 public class exerc4_2_gachaNum {

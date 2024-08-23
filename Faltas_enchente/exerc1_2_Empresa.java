@@ -1,4 +1,4 @@
-package Exercicios_da_facul.Faltas_enchente;
+package Exercicios_facul.Faltas_enchente;
 import java.util.Scanner;
 public class exerc1_2_Empresa{
     public static void main(String[] args) {
