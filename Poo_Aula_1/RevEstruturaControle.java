@@ -3,25 +3,30 @@ import java.util.Scanner;
 public class RevEstruturaControle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Escreva um número ímpar:");
+        System.out.println("Escreva um número ímpar menor que 20:");
         while (true){
             int num = scanner.nextInt();
-            if (num % 2 == 0){
+            if (num % 2 != 0 && num < 20){
                 for (int i = 0; i < num; i++){
                     for (int j = 0; j < num; j++){
                         if (j == i || j == num - i - 1){
-                            System.out.println("X");
+                            System.out.print("X");
                         } else {
-                            System.out.println(" ");
+                            System.out.print(" ");
                         }
-                    System.out.println();
                     }
+                System.out.println();
                 }
-                break;
+            break;
+            } else {
+                System.out.println("Numero invalido, precisa ser impar e menor que 20!");
             }
         }
+        scanner.close();
     }
 }
+// j == i escreve as letras onde a linha é igual a coluna e o j == num - i - 1 escrevo no lado inverso 
+//da matriz 
 /*
 As borboletas (ou panapanás) são insetos da ordem Lepidoptera. Elas têm dois pares de asas membranosas 
 cobertas de escamas, que apresentam formas e cores variadas, além de peças bucais para sucção. 
@@ -36,7 +41,7 @@ a seguir.
 Para N = 3
 
 X X
-XXX
+XxX
 X X
 
 Para N = 5
