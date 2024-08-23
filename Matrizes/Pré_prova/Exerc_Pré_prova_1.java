@@ -1,4 +1,4 @@
-package Exercicios_facul.Matrizes.Pré_prova;
+package Matrizes.Pré_prova;
 import java.util.Scanner;
 public class Exerc_Pré_prova_1 {
     public static void main(String[] args) {

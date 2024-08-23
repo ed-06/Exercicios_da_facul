@@ -1,4 +1,4 @@
-package Exercicios_facul.Faltas_enchente;
+package Faltas_enchente;
 import java.util.Scanner;
 public class exerc1_1_ParImpar {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exercicios_facul.Matrizes;
+package Matrizes;
 public class Exerc_Matrizes_1 {
     public static void main(String[] args) {
         int matriz[][] = new int[5][5];

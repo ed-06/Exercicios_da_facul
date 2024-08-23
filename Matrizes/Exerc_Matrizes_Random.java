@@ -1,4 +1,4 @@
-package Exercicios_facul.Matrizes;
+package Matrizes;
 import java.util.Random;
 public class Exerc_Matrizes_Random {
     public static boolean verificarRep(int[][] cartela, int num, int linha, int coluna) {

@@ -1,4 +1,4 @@
-package Exercicios_facul.Arrayss;
+package Arrayss;
 
 public class Exerc_Arrays_Desafio_2 {
     

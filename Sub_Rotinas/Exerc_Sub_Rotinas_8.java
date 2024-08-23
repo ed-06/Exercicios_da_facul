@@ -1,4 +1,4 @@
-package Exercicios_facul.Sub_Rotinas;
+package Sub_Rotinas;
 import java.util.Scanner;
 public class Exerc_Sub_Rotinas_8 {
     public static void main (String[]args){
