@@ -1,8 +1,32 @@
 package Poo_Aula_1;
-
+import java.util.Scanner;
 public class DesafioMatrizPoo_Aula_1 {
-    
+    public static void main (String [] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Tamanho do vetor: ");
+        int escolha = scanner.nextInt();
+        int ordenado[] = new int[escolha];
+        int onda[] = new int[escolha];
+
+        for (int i = 0; i < escolha; i++){
+            onda[i] = scanner.nextInt();
+        } 
+
+        for (int i = 0; i < escolha; i=+2){ 
+            if(onda[i] >= onda[i + 1]){
+                ordenado[i] = onda[i];
+            }
+        }
+
+        for (int i = 0; i < escolha; i++){
+            System.out.print(ordenado[i], " ");
+        } 
+    }
 }
+
+
+
+
 /*
 Faça um programa em Java que receba do usuário o tamanho de um vetor e os valores desse vetor 
 (números inteiros), e que ordene esse vetor na forma de onda.
