@@ -11,6 +11,7 @@ public class DesafioMatrizPoo_Aula_1 {
         for (int i = 0; i < escolha; i++){
             onda[i] = scanner.nextInt();
         } 
+        scanner.close();
 
         for (int i = 0; i < escolha; i=+2){ 
             if(onda[i] >= onda[i + 1]){
@@ -19,7 +20,7 @@ public class DesafioMatrizPoo_Aula_1 {
         }
 
         for (int i = 0; i < escolha; i++){
-            System.out.print(ordenado[i], " ");
+            System.out.print(ordenado[i] + " ");
         } 
     }
 }

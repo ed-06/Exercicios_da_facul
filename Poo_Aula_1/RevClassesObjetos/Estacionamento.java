@@ -1,24 +1,49 @@
 package Poo_Aula_1.RevClassesObjetos;
-
 public class Estacionamento {
-    public static void main(String[] args) {
-        Carro[] vaga = new Carro[50];
+    private String endereco;
+    private long cep;
+    private boolean vagasLiberadas;
+    private int quantidadeCarros;
 
-        vaga[0] = new Carro("Hyundai", "HB20", "preto", "BEE4F00");
-        vaga[1] = new Carro("Chevrolet", "Onix", "cinza", "FUN2M33");
-        vaga[2] = new Carro("Ford", "Ka", "vermelho", "GEZ0W35");
+    public Estacionamento (String endere, long ce){
+        endereco = endere;
+        cep = ce;
+    }
 
-        System.out.println(vaga[0].toString());
-        System.out.println(vaga[1].toString());
-        System.out.println(vaga[2].toString());
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public long getCep() {
+        return cep;
+    }
+
+    public void setCep(long cep) {
+        this.cep = cep;
+    }
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+    public void setVagasLiberadas(boolean vagasLiberadas) {
+        this.vagasLiberadas = vagasLiberadas;
+    }
+    public int getQuantidadeCarros() {
+        return quantidadeCarros;
+    }
+    public void setQuantidadeCarros(int quantidadeCarros) {
+        this.quantidadeCarros = quantidadeCarros;
+    }
+    public int quantidadeCarro(){
+        quantidadeCarros = vaga.length;
+
+    }
+
+    public String toString(){
+        return endereco + " " + cep + " ";
+    }
+    public boolean adicionar(Carro carro) {
+        if (quantidadeCarros >= vaga.length) {
+            return false;
+        }
     }
 }
-//contém o endereço (uma String), um CEP (um número inteiro bem grande) e pode conter até 50 carros. 
-/*
-Depois de criadas essas classes, crie uma classe Principal que instancie os seguintes carros e os guarde 
-no estacionamento localizado na Rua Avestruz, CEP 90001007:
-
-1) Hyundai HB20 preto, placa BEE4F00
-2) Chevrolet Onix cinza, placa FUN2M33
-3) Ford Ka vermelho, placa GEZ0W35  
- */ 
