@@ -9,5 +9,11 @@ public class Principal {
 
         System.out.println(vaga.toString());
 
+        Carro[] carros = vaga.getVagas();
+        for (Carro carro : carros) {
+            if (carro != null) {
+                System.out.println(carro.toString());
+            }
+        }
     }
 }

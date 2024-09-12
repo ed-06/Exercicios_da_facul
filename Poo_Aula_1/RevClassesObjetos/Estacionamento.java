@@ -11,6 +11,12 @@ public class Estacionamento {
         this.vagas = new Carro[50];  
         this.quantidadeCarros = 0;   
     }
+    public Carro[] getVagas() {
+        return vagas;
+    }
+    public void setVagas(Carro[] vagas) {
+        this.vagas = vagas;
+    }
 
     public String getEndereco() {
         return endereco;
@@ -64,5 +70,5 @@ public class Estacionamento {
 
     public String toString() {
         return "Está no estacionamento da rua " + endereco + ", " + cep;
-    }
-}
+    }  
+} 
