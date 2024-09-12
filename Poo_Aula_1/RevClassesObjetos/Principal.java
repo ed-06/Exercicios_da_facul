@@ -2,9 +2,11 @@ package Poo_Aula_1.RevClassesObjetos;
 
 public class Principal {
     public static void main(String[] args) {
-        Estacionamento esta1 = new Estacionamento("Rua Avestruz", 90001007);
+        Estacionamento[] vagas = new Estacionamento[50];
+        
+        
 
-        Estacionamento = new 
+
 
         Carro[] vaga = new Carro[50];
 
@@ -15,6 +17,6 @@ public class Principal {
         System.out.println(vaga[0].toString());
         System.out.println(vaga[1].toString());
         System.out.println(vaga[2].toString());
-        System.out.println(esta1.toString());   
+     
     }
 }
