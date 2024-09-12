@@ -2,17 +2,22 @@ package Poo_Aula_1.RevClassesObjetos;
 public class Estacionamento {
     private String endereco;
     private long cep;
-    private int quantidadeCarros;
+    private Carro[] vagas;  
+    private int quantidadeCarros;  
 
-    public Estacionamento(String endereco, long cep){
+    public Estacionamento(String endereco, long cep) {
         this.endereco = endereco;
         this.cep = cep;
-        Estacionamento[] vagas = new Estacionamento[];
+        this.vagas = new Carro[50];  
+        this.quantidadeCarros = 0;   
     }
-
 
     public String getEndereco() {
         return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public long getCep() {
@@ -22,17 +27,42 @@ public class Estacionamento {
     public void setCep(long cep) {
         this.cep = cep;
     }
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-    public int getQuantidadeCarros() {
-        return quantidadeCarros;
-    }
-    public void setQuantidadeCarros(int quantidadeCarros) {
-        this.quantidadeCarros = quantidadeCarros;
+
+    public boolean adicionarCarro(Carro carro) {
+        for (int i = 0; i < vagas.length; i++){
+            if (vagas[i]==null){
+                quantidadeCarros++;
+            } 
+        }
+        if (quantidadeCarros < 50){
+            for(int i = 0; i < vagas.length; i++){
+                if (vagas[i]==null){
+                    vagas[i]= carro;
+                    break;
+                }
+            }
+        }
+        if (quantidadeCarros < 50) {
+            Carro mareaTurboSovietico = new Carro("FIAT", "Marea Turbo", "Preto",
+             "BOM-9999");
+            vagas[49] = mareaTurboSovietico;
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    public String toString(){
-        return endereco + " " + cep + " ";
+    public void carrosNoEstacionamento(){
+        for (int i = 0; i < vagas.length; i++){
+            if (vagas[i]!=null){
+                Carro carro = vagas[i];
+                System.out.println(carro.toString());
+                System.out.println();
+            }
+        }
+    }
+
+    public String toString() {
+        return "Está no estacionamento da rua " + endereco + ", " + cep;
     }
 }

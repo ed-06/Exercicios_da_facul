@@ -5,11 +5,11 @@ public class Carro {
     private String cor;
     private String placa;
 
-    public Carro(String mar, String m, String c, String p){
-        marca = mar;
-        modelo = m;
-        cor = c;
-        placa = p;
+    public Carro(String marca, String modelo, String cor, String placa){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.cor = cor;
+        this.placa = placa;
     }
 
     public void setCor(String cor) {
@@ -38,8 +38,7 @@ public class Carro {
         return placa;
     }
     public String toString(){
-        return marca + " " + modelo + " " + cor + ", placa " + placa;
+        return "Marca: " + marca + ", Modelo: " + modelo + ", Cor: " + cor + ", Placa: " + placa;
     }
     
 }
-//A classe Carro contém a marca do carro, o modelo, a cor e a placa (todos os campos são Strings). 
