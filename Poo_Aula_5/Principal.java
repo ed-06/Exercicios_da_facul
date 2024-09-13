@@ -1,7 +1,23 @@
 package Poo_Aula_5;
 
 public class Principal {
-    
+    public static void main(String[] args) {
+        String imoveis[10] = new String[];
+
+        imoveis[0] = nadamovel = new Imovel(){
+
+        }
+
+        }
+
+        Casa casinha = new Casa(){
+
+        }
+        Predio predin = new Predio(){
+
+        }
+
+    }
 }
 /*
  A classe Principal possui um método main que mantém um vetor de 10 Imóveis. 
