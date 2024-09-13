@@ -1,4 +1,4 @@
-package Aula_2;
+package Poo_Aula_2;
 public class BombomGourmet extends Bombom{
     protected String cobertura;
 

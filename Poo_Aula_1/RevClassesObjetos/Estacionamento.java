@@ -3,7 +3,7 @@ public class Estacionamento {
     private String endereco;
     private long cep;
     private Carro[] vagas;  
-    private int quantidadeCarros;  
+    public int quantidadeCarros;  
 
     public Estacionamento(String endereco, long cep) {
         this.endereco = endereco;
