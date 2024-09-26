@@ -1,9 +1,0 @@
-public class Bombom extends Docinho{
-    protected string sabor;
-    protected string recheio;
-    protected boolean diet;
-
-    void comemorar(){
-        System.out.println("Olala");
-    }
-}

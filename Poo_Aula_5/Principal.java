@@ -2,31 +2,39 @@ package Poo_Aula_5;
 
 public class Principal {
     public static void main(String[] args) {
-        String imoveis[10] = new String[];
+        // Declaração e inicialização correta do vetor de imóveis
+        Imovel[] imoveis = new Imovel[10]; // Corrigido para alocar um vetor de Imoveis
 
-        imoveis[0] = nadamovel = new Imovel(){
+        // Instanciando o Imóvel, Casa, e Prédio conforme solicitado
+        Imovel nadamovel = new Imovel(60, "Rua Professor Legal, 10");
+        Casa casinha = new Casa(60, "Rua Professor Legal, 10");
+        Predio predin = new Predio(540, "Rua Professor Legal, 18", 6);
 
+        // Armazenando os objetos no vetor
+        imoveis[0] = nadamovel;
+        imoveis[1] = casinha;
+        imoveis[2] = predin;
+
+        // Testando a igualdade estrutural entre os objetos
+        // Teste 1: Imóvel vs Casa
+        if (nadamovel.equals(casinha)) {
+            System.out.println("Imóvel e Casa são Idênticos.");
+        } else {
+            System.out.println("Imóvel e Casa são Diferentes.");
         }
 
+        // Teste 2: Imóvel vs Prédio
+        if (nadamovel.equals(predin)) {
+            System.out.println("Imóvel e Prédio são Idênticos.");
+        } else {
+            System.out.println("Imóvel e Prédio são Diferentes.");
         }
 
-        Casa casinha = new Casa(){
-
+        // Teste 3: Casa vs Prédio
+        if (casinha.equals(predin)) {
+            System.out.println("Casa e Prédio são Idênticos.");
+        } else {
+            System.out.println("Casa e Prédio são Diferentes.");
         }
-        Predio predin = new Predio(){
-
-        }
-
     }
 }
-/*
- A classe Principal possui um método main que mantém um vetor de 10 Imóveis. 
- Esse método ainda instancia três objetos e os armazena no vetor: 
-
-1) Imóvel com 60m² de área construída na Rua Professor Legal, 10.
-2) Casa com 60m² de área construída na Rua Professor Legal, 10.
-3) Prédio com 540m² de área construída, 6 andares, na Rua Professor Legal, 18.
-
-Finalmente, você deve testar quais dos objetos são estruturalmente iguais
- (serão 3 testes envolvendo 2 objetos cada um) e mostrar a mensagem "Idênticos" se eles de fato forem iguais. 
- */

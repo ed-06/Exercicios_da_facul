@@ -1,4 +1,0 @@
-public class Docinho{
-    public double peso;
-    public long calorias;
-}
